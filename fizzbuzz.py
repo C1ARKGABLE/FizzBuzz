@@ -1,5 +1,6 @@
 '''
-This is a Fizzbuzz script written in Python, based off of Tom Scott's video https://youtu.be/QPZ0pIK_wsc
+This is a Fizzbuzz script written in Python,
+based off of Tom Scott's video https://youtu.be/QPZ0pIK_wsc
 
 Written to allow for as many words as you'd like
 '''
@@ -8,7 +9,8 @@ import sys
 
 def main(args):
   '''
-  This is the main function... It just has the loop. You can add parameters if you'd like
+  This is the main function... It just has the loop.
+  You can add parameters if you'd like
   '''
   if len(args) == 3:
 
@@ -32,9 +34,12 @@ def main(args):
 
 def fb(number, divisors=[3,5], words=["Fizz","Buzz"]):
   '''
-  Takes three variables; an integer number, a list of integer divisors, and a list of words.
+  Takes three variables; an integer number, a list of integer divisors,
+  and a list of words.
 
-  If num is evenly divisible by a divisor at 'index' in divisors, the word at 'index' in words is added to the return variable. If num is not evenly divisible by any number in divisors, the original number is added as output.
+  If num is evenly divisible by a divisor at 'index' in divisors, the word at
+  'index' in words is added to the return variable. If num is not evenly
+  divisible by any number in divisors, the original number is added as output.
 
   '''
   if len(divisors) != len(words):
